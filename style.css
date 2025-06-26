@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:"Shadows Into Light", cursive;
+    font-size: 30px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100VH;
+    background: #d95923;
+    background: linear-gradient(90deg, rgb(187, 10, 10) 0%, rgb(150, 18, 18) 50%, rgb(105, 5, 5) 100%);
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 120px;
+    height: 355px;
+    width: 135px;
+    text-transform: uppercase;
+}
+
+.titre {
+    font-size: 75px;
+}
+
+
+
+.burger {
+    height: 600px;
+    width: 700px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.oignon1 {
+    position: absolute;
+    top: -420px;
+    right: 1404px;
+    
+}
+
+.oignon2 {
+    position: absolute;
+    top: 100px;
+    left: -115px;
+}
+
+.map-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #aa4a21;
+    font-size: 60px;
+    height: 100vh;
+    padding: 0;
+    color: aliceblue;
+}
+
+.map-section p {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.map-section h2 {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.map-section iframe {
+    height: 350px;
+    width: 500px;
+    padding: 15px;
+}
+
+.reseau {
+    font-size: 100px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(243, 198, 49);
+}
+
+.about-section h2 {
+    font-size: 150px;
+    padding-right: 90px;
+}
+
+.about-section p {
+    font-size: 60px;
+}
