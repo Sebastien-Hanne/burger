@@ -87,7 +87,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background: rgb(243, 198, 49);
 }
 
@@ -100,3 +100,6 @@ h1 {
     font-size: 60px;
     padding: 25px;
 }
+
+/* **************Responsive*************** */
+
